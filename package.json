@@ -24,7 +24,7 @@
   "license": "MIT",
   "dependencies": {
     "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": "^6.7.17",
+    "@whiskeysockets/baileys": "npm:angularsockets",
     "dotenv": "^16.4.7",
     "fs-extra": "^11.3.0",
     "node-fetch": "^2.6.1",
@@ -35,6 +35,7 @@
     "path": "^0.12.7",
     "express": "^4.18.1",
     "pm2": "^5.4.2",
-    "qrcode": "^1.5.3"
+    "qrcode": "^1.5.3",
+    "jimp": "^0.22.10"
   }
 }
